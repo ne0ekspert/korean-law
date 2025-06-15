@@ -1,14 +1,14 @@
 ---
 chapter:
-  number: 1
+  number: 2
 section:
   number: 1
 article:
-  number: 1
+  number: 4
 title: "제4조 저작물의 예시 등"
 ---
 
-# 제1장 총칙
+# 제2장 저작권
 
 ## 제1절 저작물
 

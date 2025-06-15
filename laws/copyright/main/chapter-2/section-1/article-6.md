@@ -1,6 +1,6 @@
 ---
 chapter:
-  number: 1
+  number: 2
 section:
   number: 1
 article:
@@ -8,7 +8,7 @@ article:
 title: "제6조 편집저작물"
 ---
 
-# 제1장 총칙
+# 제2장 저작권
 
 ## 제1절 저작물
 

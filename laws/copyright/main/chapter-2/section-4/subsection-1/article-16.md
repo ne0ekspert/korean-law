@@ -1,6 +1,6 @@
 ---
 chapter:
-  number: 1
+  number: 2
 section:
   number: 4
 subsection:
@@ -10,9 +10,9 @@ article:
 title: "제16조 복제권"
 ---
 
-# 제1장 총칙
+# 제2장 저작권
 
-## 제3절 저작인격권
+## 제4절 저작재산권
 
 ### 제1관 저작재산권의 종류
 
