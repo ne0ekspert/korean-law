@@ -1,0 +1,35 @@
+name: Normalize Special Characters
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  normalize-quotes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Normalize curly quotes & apostrophes in Markdown
+        run: |
+          # Only process .md files
+          find . -type f -name '*.md' -print0 | xargs -0 sed -i \
+            -e 's/“/"/g' \
+            -e 's/”/"/g' \
+            -e "s/‘/'/g" \
+            -e "s/’/'/g"
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "✨ No curly quotes in Markdown — all clean!"
+          else
+            git add '*.md'
+            git commit -m "chore: normalize special characters in Markdown"
+            git push
+          fi
