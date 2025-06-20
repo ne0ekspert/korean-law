@@ -3,7 +3,7 @@ chapter:
   number: 6
 article:
   number: 76
-title: "제64조 "
+title: "제76조 안전과 보건"
 ---
 # 근로기준법
 
