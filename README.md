@@ -10,7 +10,7 @@
 - [민법](./laws/civil/) (WIP)
 - [근로기준법](./laws/labor/)
 - [경범죄처벌법](./laws/minor-offense/)
-- [개별소비세법](./laws/individual-tax/) (WIP)
+- [개별소비세법](./laws/individual-tax/)
 - [건강검진기본법](./laws/health-checkup/)
 - [저작권법](./laws/copyright/)
 
